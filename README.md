@@ -46,6 +46,7 @@ always required for the compilation
 Try redownloading the files.
 If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
 
+Make sure that when downloading Visual Studio, "Desktop Development with C++" in the Workloads section is marked and "Windows 10.0.18362.0 SDK" in the Installation Details. 
 
 ## Farewell
 I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
