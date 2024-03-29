@@ -56,8 +56,7 @@ call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDe
 always required for the compilation
 ```
 
-## Other errors (uncommon)
-### Issues with Skia or Aseprite files/folders
+## Issues with Skia or Aseprite files/folders
 If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied. Try redownloading.
 
 #### Error #1
@@ -66,7 +65,7 @@ LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\lib\x64\wsetargv.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
 ```
 
-Compile Aseprite with the version of Skia that your device indicates, in this case, x86. Do not forget to check [this step](https://github.com/arianacx/aseprite-errors/?tab=readme-ov-file#error-3) is fulfilled.
+Compile Aseprite with the version of Skia that your device indicates, in this case, x86. Do not forget to check [this step](#error-3) is fulfilled.
 
 ## Farewell
 I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
