@@ -34,7 +34,7 @@ After executing commands, the current directory is not correct. cmd is currently
 ```
 ninja: error: 'C:/deps/skia/out/Release-x64/skshaper.lib', needed by 'bin/aseprite.exe', missing and no known rule to make it
 ```
-Check that the last argument of the architecture suits your machine type. For the example previously provided, it would be:
+Check that the last argument of the architecture suits **your machine type**. For instance:
 ```
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x86
 ```
