@@ -24,9 +24,7 @@ Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.ex
 'ninja.build' was not found (or similar code, I did not take notes on this one)
 ```
 
-After executing commands, the current directory is not correct. cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
-
-Redirect by using `cd C:\aseprite\build`
+After executing commands, the current directory is not correct. cmd is currently on `C:\aseprite\build\build`. Redirect by using `cd C:\aseprite\build`
 
 ### Compilation started but failed
 
