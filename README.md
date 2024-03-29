@@ -12,6 +12,12 @@ solution: create a path create a C:\Ninja path instead of C:\Ninja\ninja.exe (al
 
 additional: if the issue has not been solved, you can also try: ninja -f C:\Ninja\ninja.exe 
 
+error: 'ninja.build' was not found (or similar code, I did not take notes on this one)
+issue: current directory is not correct, after executing commands, cmd is currently on C:\aseprite\build\build instead of C:\aseprite\build
+
+solution: redirect by using
+cd C:\aseprite\build
+
 ## compilation started but failed
 
 error:
