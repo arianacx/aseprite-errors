@@ -5,10 +5,7 @@ This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite
 Just install Git in https://git-scm.com/downloads, then close and reopen cmd and start the whole process again.
 
 ## Ninja errors
-Line:
-```
-C:\aseprite\build>ninja aseprite
-```
+All issues with the next line: `C:\aseprite\build>ninja aseprite`
 
 ```
 'ninja' is not recognized as an internal or external command, operable program or batch file.
