@@ -1,4 +1,4 @@
-# aseprite-errors
+# Aseprite compilation errors
 This is a not a guide to compile Aseprite but a guide on how to solve main issues when trying to compile it.
 
 # git errors
