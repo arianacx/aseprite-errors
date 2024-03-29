@@ -35,3 +35,9 @@ ninja: build stopped: subcommand failed.
 issue: forgot to initialize the Visual Studio call in cmd:
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
 always required for the compilation
+
+# other errors (uncommon)
+issues with skia or aseprite folders. If you do not use any decompressor program and just Windows' native options, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
+
+# farwell
+I hopw this quick guide was useful, it is mainly meant for users who have never compiled any program before.
