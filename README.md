@@ -6,7 +6,9 @@ Just install Git https://git-scm.com/downloads, close and reopen cmd and start t
 
 # ninja aseprite
 line:
+```
 C:\aseprite\build>ninja aseprite
+```
 error: 'ninja' is not recognized as an internal or external command, operable program or batch file.
 
 issue: some online tutorials say to create a path C:\Ninja\ninja.exe, whilst it can work for some, others may encounter errors with the system's navigation/localization/readability of ninja. Y
