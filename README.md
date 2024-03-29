@@ -23,8 +23,10 @@ error:
 ```
 'ninja.build' was not found (or similar code, I did not take notes on this one)
 ```
+TLDR; the current directory is not correct.
 
-Current directory is not correct, after executing commands, cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
+After executing commands, cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
+
 Redirect by using `cd C:\aseprite\build`
 
 ### compilation started but failed
@@ -38,7 +40,7 @@ C:\aseprite\third_party\lua\llex.c(13): fatal error C1083: Cannot open include f
 ninja: build stopped: subcommand failed.
 ```
 
-issue: forgot to initialize the Visual Studio call in cmd:
+issue: forgot to initialize the following Visual Studio call in cmd:
 ```
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
 always required for the compilation
