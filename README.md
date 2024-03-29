@@ -46,8 +46,10 @@ call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDe
 always required for the compilation
 ```
 
-## other errors (uncommon)
-Issues with Skia or Aseprite files/folders. If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
+## Other errors (uncommon)
+# Issues with Skia or Aseprite files/folders
+Try redownloading the files.
+If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
 
 
 ## farewell
