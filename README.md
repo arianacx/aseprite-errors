@@ -2,23 +2,23 @@
 This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite) but on how to solve main issues when trying to compile it.
 
 ## Git errors
-Just install Git https://git-scm.com/downloads, close and reopen cmd and start the whole process again.
+Just install Git in https://git-scm.com/downloads, then close and reopen cmd and start the whole process again.
 
 ## Ninja aseprite
-    Line:
+Line:
 ```
 C:\aseprite\build>ninja aseprite
 ```
-    Error:
+Error:
 ```
 'ninja' is not recognized as an internal or external command, operable program or batch file.
 ```
 
 issue: some tutorials say to create a `C:\Ninja\ninja.exe` path, whilst it can work for some, others may encounter errors with the system's navigation/localization/readability of ninja.
 
-solution: create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the `C:\Ninja\ninja.exe` path previously created)
+solution: create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path previously created)
 
-Additionally, if the issue has not been solved, you can also try: `ninja -f C:\Ninja\ninja.exe` 
+Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe` 
 
 error: 
 ```
@@ -46,7 +46,7 @@ call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDe
 always required for the compilation
 ```
 ## other errors (uncommon)
-issues with skia or aseprite folders. If you do not use any decompressor program and just Windows' native options, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
+Issues with Skia or Aseprite files/folders. If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
 
 ## farewell
 I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
