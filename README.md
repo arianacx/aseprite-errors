@@ -4,7 +4,7 @@ This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite
 ## Git errors
 Just install Git in https://git-scm.com/downloads, then close and reopen cmd and start the whole process again.
 
-## Ninja aseprite
+## Ninja errors
 Line:
 ```
 C:\aseprite\build>ninja aseprite
@@ -45,8 +45,10 @@ Forgot to initialize the following Visual Studio call in cmd:
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
 always required for the compilation
 ```
+
 ## other errors (uncommon)
 Issues with Skia or Aseprite files/folders. If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
+
 
 ## farewell
 I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
