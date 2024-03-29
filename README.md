@@ -9,7 +9,7 @@ Line:
 ```
 C:\aseprite\build>ninja aseprite
 ```
-Error:
+
 ```
 'ninja' is not recognized as an internal or external command, operable program or batch file.
 ```
@@ -20,7 +20,6 @@ Create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path 
 
 Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe` 
 
-error: 
 ```
 'ninja.build' was not found (or similar code, I did not take notes on this one)
 ```
@@ -29,7 +28,7 @@ After executing commands, the current directory is not correct. cmd is currently
 
 Redirect by using `cd C:\aseprite\build`
 
-### compilation started but failed
+### Compilation started but failed
 
 error:
 ```
@@ -47,10 +46,10 @@ always required for the compilation
 ```
 
 ## Other errors (uncommon)
-# Issues with Skia or Aseprite files/folders
+### Issues with Skia or Aseprite files/folders
 Try redownloading the files.
 If you do not use any compression software and just Windows' native one, there might be some issues with copy and pasting files (from downloads to Local Disk), try to decompress *before* copying, else some subfolders or files might not be copied.
 
 
-## farewell
+## Farewell
 I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
