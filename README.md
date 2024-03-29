@@ -15,6 +15,7 @@ Error:
 ```
 
 Whilst creating a `C:\Ninja\ninja.exe` path can work for some, others may encounter errors with the system's localization of ninja.
+
 Create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path previously created)
 
 Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe` 
@@ -23,9 +24,8 @@ error:
 ```
 'ninja.build' was not found (or similar code, I did not take notes on this one)
 ```
-TLDR; the current directory is not correct.
 
-After executing commands, cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
+After executing commands, the current directory is not correct. cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
 
 Redirect by using `cd C:\aseprite\build`
 
@@ -40,7 +40,7 @@ C:\aseprite\third_party\lua\llex.c(13): fatal error C1083: Cannot open include f
 ninja: build stopped: subcommand failed.
 ```
 
-issue: forgot to initialize the following Visual Studio call in cmd:
+Forgot to initialize the following Visual Studio call in cmd:
 ```
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
 always required for the compilation
