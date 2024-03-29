@@ -7,6 +7,7 @@ Just install Git in https://git-scm.com/downloads, then close and reopen cmd and
 ## Ninja errors
 All issues with the next line: `C:\aseprite\build>ninja aseprite`.
 
+#### Error #1
 ```
 'ninja' is not recognized as an internal or external command, operable program or batch file.
 ```
@@ -17,6 +18,7 @@ Create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path 
 
 Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe`.
 
+#### Error #2
 ```
 'ninja.build' was not found (or similar code, I did not take notes on this one).
 ```
@@ -25,7 +27,6 @@ After executing commands, the current directory is not correct. cmd is currently
 
 ### Compilation started but failed
 
-error:
 ```
 [1/1533] Building C object third_party\CMakeFiles\tinyexpr.dir\tinyexpr\tinyexpr.c.obj
 FAILED: third_party/CMakeFiles/tinyexpr.dir/tinyexpr/tinyexpr.c.obj
