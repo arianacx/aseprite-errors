@@ -5,7 +5,7 @@ This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite
 Just install Git in https://git-scm.com/downloads, then close and reopen cmd and start the whole process again.
 
 ## Ninja errors
-All issues with the next line: `C:\aseprite\build>ninja aseprite`
+All issues with the next line: `C:\aseprite\build>ninja aseprite`.
 
 ```
 'ninja' is not recognized as an internal or external command, operable program or batch file.
@@ -15,13 +15,13 @@ Whilst creating a `C:\Ninja\ninja.exe` path can work for some, others may encoun
 
 Create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path previously created)
 
-Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe` 
+Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe`.
 
 ```
-'ninja.build' was not found (or similar code, I did not take notes on this one)
+'ninja.build' was not found (or similar code, I did not take notes on this one).
 ```
 
-After executing commands, the current directory is not correct. cmd is currently on `C:\aseprite\build\build`. Redirect by using `cd C:\aseprite\build`
+After executing commands, the current directory is not correct. cmd is currently on `C:\aseprite\build\build`. Redirect by using `cd C:\aseprite\build`.
 
 ### Compilation started but failed
 
