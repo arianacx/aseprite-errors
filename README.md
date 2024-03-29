@@ -1,6 +1,9 @@
 # aseprite-errors
 This is a not a guide to compile Aseprite but a guide on how to solve main issues when trying to compile it.
 
+# git errors
+Just install Git https://git-scm.com/downloads, close and reopen cmd and start the whole process again.
+
 # ninja aseprite
 line:
 C:\aseprite\build>ninja aseprite
