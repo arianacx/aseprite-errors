@@ -1,6 +1,6 @@
 # Aseprite compilation errors
 This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite) but on how to solve main issues when trying to compile it.
-###### General info
+##### General info
 - Make sure that when downloading Visual Studio, ["Desktop Development with C++"](https://imgur.com/a/7zs51IT) in the Workloads section is marked and "Windows 10.0.18362.0 SDK" in the Installation Details.
 - If you are using customised directories instead of the conventional ones, modify the corresponding commands accordingly.
 - Try redownloading the files.
@@ -33,12 +33,13 @@ After executing commands, the current directory is not correct. cmd is currently
 #### Error #3
 ```
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
-D:\apps\vs\VC\Tools\MSVC\14.28.29333\lib\x64\wsetargv.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\lib\x64\wsetargv.obj : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
 ```
 
-Compile Aseprite with the x86 version of Skia
-
-call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat" -arch=x64 <- make sure this last argument matches your libraries and machine type.
+Compile Aseprite with the indicated version of Skia, in this case, x86. Also, check that the last argument of the architecture suits your machine type. For the example previously provided, it would be:
+```
+call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x86
+```
 
 ### Compilation started but failed
 
