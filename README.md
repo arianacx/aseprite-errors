@@ -14,9 +14,8 @@ Error:
 'ninja' is not recognized as an internal or external command, operable program or batch file.
 ```
 
-issue: some tutorials say to create a `C:\Ninja\ninja.exe` path, whilst it can work for some, others may encounter errors with the system's navigation/localization/readability of ninja.
-
-solution: create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path previously created)
+Whilst creating a `C:\Ninja\ninja.exe` path can work for some, others may encounter errors with the system's localization of ninja.
+Create a `C:\Ninja` path instead of `C:\Ninja\ninja.exe` (also, delete the path previously created)
 
 Additionally, if the issue has not been solved, try: `ninja -f C:\Ninja\ninja.exe` 
 
@@ -25,9 +24,8 @@ error:
 'ninja.build' was not found (or similar code, I did not take notes on this one)
 ```
 
-issue: current directory is not correct, after executing commands, cmd is currently on C:\aseprite\build\build instead of C:\aseprite\build
-
-solution: redirect by using `cd C:\aseprite\build`
+Current directory is not correct, after executing commands, cmd is currently on `C:\aseprite\build\build` instead of `C:\aseprite\build`
+Redirect by using `cd C:\aseprite\build`
 
 ### compilation started but failed
 
