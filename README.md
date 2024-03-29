@@ -50,10 +50,9 @@ C:\aseprite\third_party\lua\llex.c(13): fatal error C1083: Cannot open include f
 ninja: build stopped: subcommand failed.
 ```
 
-Forgot to initialize the following Visual Studio call in cmd:
+Forgot to initialize the following Visual Studio call in cmd, it is always required after closing and reopening the cmd:
 ```
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
-always required for the compilation
 ```
 
 ## Issues with Skia or Aseprite files/folders
