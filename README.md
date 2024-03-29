@@ -1,7 +1,7 @@
 # Aseprite compilation errors
 This is a not a guide to compile [Aseprite](https://github.com/aseprite/aseprite) but on how to solve main issues when trying to compile it.
 #### General info:
-- Make sure that when downloading Visual Studio, ["Desktop Development with C++"](https://imgur.com/a/7zs51IT) in the Workloads section is marked and "Windows 10.0.18362.0 SDK" in the Installation Details.
+- Make sure that when downloading Visual Studio, "[Desktop Development with C++](https://imgur.com/a/7zs51IT)" in the Workloads section is marked and "Windows 10.0.18362.0 SDK" in the Installation Details.
 - If you are using customised directories instead of the conventional ones, modify the corresponding commands accordingly.
 - Try redownloading the files.
 - Deactivate your antivirus momentarily for this process.
