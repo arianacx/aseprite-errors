@@ -67,4 +67,4 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.3351
 Compile Aseprite with the version of Skia that your device indicates, in this case, x86. Do not forget to check [this step](#error-3) is fulfilled.
 
 ## Farewell
-I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before.
+I hope this quick guide was useful, it is mainly meant for users who have never compiled any program before. If any issue was not mentioned, make sure to read Aseprite's [closed issues](https://github.com/aseprite/aseprite/issues) as some might not be included here to avoid unecessary repetition.
